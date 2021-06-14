@@ -1,0 +1,34 @@
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .main {
+    height: 100%;
+    margin-left: 250px;
+  }
+  .content {
+    position: relative;
+    margin-top: 130px;
+  }
+  .navigate {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+  }
+  .footer {
+    margin-left: 250px;
+    height: 10%;
+  }
+  .footerphone {
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .footercopyright {
+    margin-right: 20px;
+    margin-top: -20px;
+    text-align: right;
+  }
+  
