@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {Routes, RouterModule} from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,6 +11,12 @@ import { SliderComponent } from './slider/slider.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
+import { FormordersComponent } from './formorders/formorders.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
 
 const routes: Routes = [{ path: 'slider', component: SliderComponent }];
 
@@ -21,6 +27,7 @@ const routes: Routes = [{ path: 'slider', component: SliderComponent }];
     SliderComponent,
     MenuComponent,
     HeaderComponent,
+    FormordersComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,12 @@ const routes: Routes = [{ path: 'slider', component: SliderComponent }];
     BrowserAnimationsModule,
     MatSliderModule,
     FormsModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDialogModule,
+    MatButtonModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
