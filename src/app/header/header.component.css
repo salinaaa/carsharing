@@ -13,7 +13,7 @@ header{
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
-    margin-left: 250px;
+    margin-left: 320px;
   }
   .container input#search{
     min-width: 1300px;
@@ -34,11 +34,11 @@ header{
     color: #ffffff;
  }
   
- .container input#search:-moz-placeholder { /* Firefox 18- */
+ .container input#search:-moz-placeholder {
     color: #ffffff;  
  }
   
- .container input#search::-moz-placeholder {  /* Firefox 19+ */
+ .container input#search::-moz-placeholder {
     color: #ffffff;  
  }
   
@@ -75,6 +75,6 @@ header{
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-top: 30px;
 }
