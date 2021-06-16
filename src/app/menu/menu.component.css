@@ -1,14 +1,13 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 283px;
+    width: auto;
     position: relative;
     height: 100%;
     overflow: auto;
   }
   .sidebar a {
     display: block;
-    color: black;
     padding: 16px;
     text-decoration: none;
   }

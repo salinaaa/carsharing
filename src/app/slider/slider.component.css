@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   overflow-x: hidden;
+  width: auto;
 }
 .slider__slide {
   height: 100%;
@@ -59,7 +60,6 @@
 }
 .slide__descr {
   font-size: 22px;
-  color: gray_light;
 }
 .slide__button {
   padding: 1em 2em;
